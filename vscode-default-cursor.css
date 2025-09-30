@@ -4,6 +4,7 @@
 .monaco-editor .goto-definition-link  { cursor: pointer !important; }
 
 /* ===== 1. 标签页 + 图标 ===== */
+.monaco-workbench .monaco-scrollable-element,
 .monaco-workbench .tabs-container,
 .monaco-workbench .tabs-container * {
     cursor: default !important;
