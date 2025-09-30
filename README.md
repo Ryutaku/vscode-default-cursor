@@ -1,5 +1,7 @@
 # vscode-pointer-arrow
 
+Restore VS Code's mouse cursor to the system default arrow pointer.
+
 Tired of the “hand” cursor showing up everywhere in VS Code?  
 This single CSS file turns **all unnecessary hand / grab cursors back to the default arrow**, while keeping the editor’s I-beam and Ctrl+click “go-to-definition” hand intact.  
 It feels like a native desktop app again.
