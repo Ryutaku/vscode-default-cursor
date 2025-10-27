@@ -3,7 +3,7 @@
 .monaco-editor .margin                { cursor: default !important; }
 .monaco-editor .goto-definition-link  { cursor: pointer !important; }
 
-/* ===== 1. 标签页 + 图标 ===== */
+/* ===== 1. 标签页 ===== */
 .tab * {
     cursor: default !important;
 }
