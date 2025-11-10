@@ -10,10 +10,13 @@
 ## 🚀 一键食用
 
 1. 安装插件 [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)  
-2. 把本仓库 `vscode-default-cursor.css` 保存到本地任意路径（推荐放在 `~/.vscode/vscode-default-cursor.css`）  
-3. 打开 VS Code **设置** → 搜索 `css.custom` → 在 **Custom CSS: Style** 填入刚才的文件绝对路径  
-   - Windows 例子：`C:\Users\&lt;用户名&gt;\.vscode\vscode-default-cursor.css`  
-   - macOS / Linux 例子：`/home/&lt;用户名&gt;/.vscode/vscode-default-cursor.css`  
+2. 把本仓库 `vscode-default-cursor.css` 保存到本地任意路径（例如： `C:\\Users\\Administrator\\Documents\\vscode-custom.css`）  
+3. 打开 VS Code 的**用户设置 settings.json** → 填入刚才的文件绝对路径  
+   ```
+    "vscode_custom_css.imports": [
+        "file:///C:\\Users\\Administrator\\Documents\\vscode-custom.css" // <-- 替换为你自己的 CSS 文件路径
+    ],
+   ``` 
 4. **重启 VS Code** → 右下角弹窗点 **「Restart」**  
 5. 享受「全屏都是箭头」的清爽体验！
 
