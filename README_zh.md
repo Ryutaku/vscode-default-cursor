@@ -10,11 +10,11 @@
 ## 🚀 一键食用
 
 1. 安装插件 [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)  
-2. 把本仓库 `vscode-default-cursor.css` 保存到本地任意路径（例如： `C:\\Users\\Administrator\\Documents\\vscode-custom.css`）  
+2. 把本仓库 `vscode-default-cursor.css` 保存到本地任意路径（例如： `C:\\Users\\Administrator\\Documents\\vscode-default-cursor.css`）  
 3. 打开 VS Code 的**用户设置 settings.json** → 填入刚才的文件绝对路径  
    ```
     "vscode_custom_css.imports": [
-        "file:///C:\\Users\\Administrator\\Documents\\vscode-custom.css" // <-- 替换为你自己的 CSS 文件路径
+        "file:///C:\\Users\\Administrator\\Documents\\vscode-default-cursor.css" // <-- 替换为你自己的 CSS 文件路径
     ],
    ``` 
 4. **重启 VS Code** → 右下角弹窗点 **「Restart」**  
