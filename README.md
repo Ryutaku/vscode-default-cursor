@@ -18,7 +18,7 @@ It feels like a native desktop app again.
         "file:///C:\\Users\\Administrator\\Documents\\vscode-default-cursor.css"
     ],
    ```
-4. Restart VS Code when prompted
+4. Press `Ctrl + Shift + P` to open VS Code’s command palette, choose “Reload Custom CSS and JS”, and VS Code will automatically restart.
 5. Enjoy a **hand-free** workspace!
 
 ---
