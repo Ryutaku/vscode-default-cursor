@@ -11,10 +11,13 @@ It feels like a native desktop app again.
 ## 🚀 Quick Start
 
 1. Install the extension [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
-2. Save this repo’s file `vscode-default-cursor.css` anywhere you like (e.g. `~/.vscode/vscode-default-cursor.css`)
-3. Open VS Code **Settings** → search `css.custom` → paste the **absolute path** of the file  
-   - Windows: `C:\Users\&lt;name&gt;\.vscode\vscode-default-cursor.css`  
-   - macOS/Linux: `/home/&lt;name&gt;/.vscode/vscode-default-cursor.css`
+2. Save this repo’s file `vscode-default-cursor.css` anywhere you like (e.g. `C:\\Users\\Administrator\\Documents\\vscode-custom.css`)
+3. Open VS Code **settings.json** → search `vscode_custom_css.imports` → paste the **absolute path** of the file as below:  
+   ```
+    "vscode_custom_css.imports": [
+        "file:///C:\\Users\\Administrator\\Documents\\vscode-custom.css"
+    ],
+   ```
 4. Restart VS Code when prompted
 5. Enjoy a **hand-free** workspace!
 
