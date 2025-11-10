@@ -17,7 +17,7 @@
         "file:///C:\\Users\\Administrator\\Documents\\vscode-default-cursor.css" // <-- 替换为你自己的 CSS 文件路径
     ],
    ``` 
-4. **重启 VS Code** → 右下角弹窗点 **「Restart」**  
+4. 按下 `Ctrl + Shift + P` 打开 VS Code 的命令面板，输入并选择 “Reload Custom CSS and JS”，随后 VS Code 会自动重启  
 5. 享受「全屏都是箭头」的清爽体验！
 
 ---
